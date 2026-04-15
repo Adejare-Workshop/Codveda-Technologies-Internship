@@ -17,25 +17,12 @@ All notebooks are self-contained — no local file paths, no external CSV downlo
 
 ---
 
-## Project Structure
-
-```
-.
-├── Task1_1_improved.ipynb    # Data preprocessing pipeline (Iris)
-├── Task1_3_improved.ipynb    # Random Forest + hyperparameter tuning (Iris)
-├── task2_1_improved.ipynb    # Simple linear regression (California Housing)
-├── task2_2_improved.ipynb    # Decision tree classifier (Iris)
-├── task2_3_improved.ipynb    # SVM with kernel comparison (Breast Cancer)
-├── task3_1_improved.ipynb    # KNN classifier with K tuning (Wine)
-├── task3_2_improved.ipynb    # K-Means customer segmentation
-└── README.md
-```
 
 ---
 
 ## Task 1 – Data Preprocessing & Classification
 
-### Level 1 — Data Preprocessing (`Task1_1_improved.ipynb`)
+### Level 1 — Data Preprocessing (`Task1_1.ipynb`)
 
 The foundation of any ML pipeline. Raw data almost never comes in a model-ready state, so this notebook covers the full preprocessing workflow on the Iris dataset.
 
@@ -50,7 +37,7 @@ The foundation of any ML pipeline. Raw data almost never comes in a model-ready 
 
 ---
 
-### Level 3 — Random Forest Classifier (`Task1_3_improved.ipynb`)
+### Level 3 — Random Forest Classifier (`Task1_3.ipynb`)
 
 Takes the same Iris dataset further with an ensemble model and systematic hyperparameter search.
 
@@ -68,7 +55,7 @@ Takes the same Iris dataset further with an ensemble model and systematic hyperp
 
 ## Task 2 – Regression & Classification Models
 
-### Level 1 — Simple Linear Regression (`task2_1_improved.ipynb`)
+### Level 1 — Simple Linear Regression (`task2_1.ipynb`)
 
 **Dataset:** California Housing (sklearn built-in, ~20,000 samples)
 
@@ -84,7 +71,7 @@ Demonstrates how a single feature — median household income — can predict ho
 
 ---
 
-### Level 2 — Decision Tree Classifier (`task2_2_improved.ipynb`)
+### Level 2 — Decision Tree Classifier (`task2_2.ipynb`)
 
 **Dataset:** Iris
 
@@ -99,7 +86,7 @@ Decision Trees are the most interpretable model in supervised learning. This not
 
 ---
 
-### Level 3 — Support Vector Machine (`task2_3_improved.ipynb`)
+### Level 3 — Support Vector Machine (`task2_3.ipynb`)
 
 **Dataset:** Breast Cancer Wisconsin (sklearn built-in, 569 samples, binary classification)
 
@@ -117,7 +104,7 @@ SVMs are particularly well-suited to medical diagnosis because they maximise the
 
 ## Task 3 – KNN & Clustering
 
-### Level 1 — K-Nearest Neighbours (`task3_1_improved.ipynb`)
+### Level 1 — K-Nearest Neighbours (`task3_1.ipynb`)
 
 **Dataset:** Wine (sklearn built-in, 178 samples, 13 chemical features, 3 classes)
 
@@ -133,7 +120,7 @@ KNN is one of the most intuitive algorithms — a sample is classified by the ma
 
 ---
 
-### Level 2 — K-Means Clustering (`task3_2_improved.ipynb`)
+### Level 2 — K-Means Clustering (`task3_2.ipynb`)
 
 **Dataset:** Simulated retail customer data (200 samples, 2 features: annual income + spending score)
 
