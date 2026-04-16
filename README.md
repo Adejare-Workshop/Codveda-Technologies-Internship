@@ -141,8 +141,8 @@ Unlike the other notebooks, this one is fully unsupervised — there are no labe
 
 ```bash
 # Clone the repo
-git clone https://github.com/adejare-dev/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/Adejare-Workshop/Codveda-Technologies-Internship.git 
+cd Codveda-Technologies-Internship
 
 # Create a virtual environment (recommended)
 python -m venv venv
@@ -178,3 +178,4 @@ All datasets are loaded directly from `sklearn.datasets` or `seaborn` — no ext
 
 **Adejare** — Freelance ML Engineer  
 [GitHub](https://github.com/adejare-dev) · [LinkedIn](https://linkedin.com/in/adejare)
+[portfolio](https://my-work-website.pages.dev/)
